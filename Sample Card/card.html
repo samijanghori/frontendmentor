@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Professional Card</title>
+
+<style>
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    min-height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: #1e1e1e;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.mycard {
+    display: flex;
+    width: 650px;
+    height: 320px;
+    background: linear-gradient(135deg, #000000, #2c2c2c);
+    border-radius: 20px;
+    box-shadow: 0 20px 40px rgba(0,0,0,0.6);
+    overflow: hidden;
+}
+
+/* image section */
+.img {
+    width: 40%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.img img {
+    width: 75%;
+    aspect-ratio: 1 / 1;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 4px solid #c89b3c;
+}
+
+/* text section */
+.text {
+    width: 60%;
+    padding: 30px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    gap: 8px;
+}
+
+.text h1 {
+    font-size: 22px;
+    color: #f5deb3;
+}
+
+.text p {
+    font-size: 13px;
+    color: #d0d0d0;
+    line-height: 1.5;
+}
+
+.contact {
+    margin-top: 10px;
+    font-weight: bold;
+    color: #c89b3c;
+}
+
+/* hover effect */
+.mycard:hover {
+    transform: translateY(-5px);
+    transition: 0.3s ease;
+}
+</style>
+</head>
+
+<body>
+
+<div class="mycard">
+    <div class="img">
+        <img src="img/333.PNG" alt="profile">
+    </div>
+
+    <div class="text">
+        <h1>Samiulla Mohammadi</h1>
+        <p>Back-end developer specialized in PHP & Laravel</p>
+        <p>Junior web developer with over 2 years of experience</p>
+        <p class="contact">Telegram: @Smimhd | Phone: 783738737</p>
+    </div>
+</div>
+
+</body>
+</html>
