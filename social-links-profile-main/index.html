@@ -1,0 +1,141 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <title>Frontend Mentor | Social links profile</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      background-color: black;
+    }
+
+    .container {
+      max-width: 500px;
+      max-height: 900px;
+      margin: auto;
+      margin-top: 150px;
+      margin-bottom: 300px;
+      background-color: #1d1c1c;
+      justify-content: center;
+      align-items: center;
+      padding: 20px;
+      border-radius: 23px;
+      }
+    .img {
+      background-color: #1d1c1c;
+      height: 120px;
+      width: 120px;
+      margin: auto;
+      margin-bottom: 30px;
+      margin-top: 50px;
+    }
+    .img img {
+      height: 100%;
+      width: 100%;
+      border-radius: 50%;
+
+    }
+    .header {
+      text-align: center;
+      padding-bottom: 30px ;
+      background-color: #1d1c1c;
+    }
+    h1 {
+      color: white;
+      background-color: #1d1c1c;
+    }
+    .header h3 {
+      color: rgb(174, 241, 29);
+      background-color: #1d1c1c;
+    }
+    .links {
+      text-align: center;
+      display: flex;
+      flex-direction: column;
+      background-color:#1d1c1c;
+ 
+
+    }
+    .links p {
+      background-color: #1d1c1c;
+      color: white;
+      font-weight: lighter;
+      margin-bottom: 30px;
+    }
+    .links button {
+      background-color: #6c6969;
+      border: none;
+      margin-bottom: 15px;
+      margin-left: 20px;
+      height: 40px;
+      border-radius: 10px;
+      width: 90%;
+    }
+    .links button a {
+     
+      color: white;
+      text-decoration: none;
+      background-color: #6c6969;
+      font-weight: bold;
+    }
+
+    .attribution { 
+      font-size: 11px;
+       text-align: center;
+       display: flex;
+       margin: auto;
+       justify-content: center; 
+       flex-direction: column;
+       margin-bottom: 300px;
+      }
+    .attribution a { 
+      color: hsl(228, 45%, 44%);
+      text-decoration: none;
+      color: white;
+      font-size: large;
+
+    }
+    @media (max-width: 600px) {
+  .container {
+    width: 90%;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    padding: 15px;
+  }
+    }
+  </style>
+</head>
+<body>
+
+  <div class="container">
+    <div class="img">
+      <img src="assets/images/3232.png" alt="can't find image">
+    </div>
+    <div class="header">
+      <h1>Sami Mohammadi</h1>
+      <h3>Herat, Afghanistan</h3>
+    </div>
+    <div class="links">
+      <p>"Full-stack developer and AI Output Reviewer"</p>
+      <button><a href="https://github.com/samijanghori">GitHub</a></button>
+      <button><a href="https://www.linkedin.com/in/sami-mohammadi-6121b9338/">LinkedIn</a></button>
+      <button><a href="https://www.facebook.com/profile.php?id=61588057197712">Facebook</a></button>
+      <button><a href="https://t.me/Smimhd">Telegram</a></button>
+      <button><a href="">Watsapp</a></button>
+    </div>
+  </div>
+ 
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">samiulla</a>.
+  </div>
+</body>
+</html>
